@@ -1,0 +1,22 @@
+{
+  "name": "node-aws-cli",
+  "version": "1.0.0",
+  "description": "This is a working repository to manage files due working with AWS CLI and NodeJS",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bogdan-karlenko/node-aws-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bogdan-karlenko/node-aws-cli/issues"
+  },
+  "homepage": "https://github.com/bogdan-karlenko/node-aws-cli#readme",
+  "dependencies": {
+    "aws-sdk": "^2.197.0"
+  }
+}

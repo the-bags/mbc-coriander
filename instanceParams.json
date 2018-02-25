@@ -1,0 +1,24 @@
+{
+  "MaxCount": 1,
+  "MinCount": 1,
+  "ImageId": "ami-d7aab2b3",
+  "TagSpecifications": [
+    {
+      "ResourceType": "instance",
+      "Tags": [
+        {
+          "Value": "mbc-coriander",
+          "Key": "Name"
+        }
+      ]
+    }
+  ],
+  "SecurityGroups": [
+    "launch-wizard-1"
+  ],
+  "KeyName": "opposite-key-pair-london",
+  "Placement": {
+    "AvailabilityZone": "eu-west-2a"
+  },
+  "InstanceType": "t2.micro"
+}
